@@ -95,6 +95,7 @@ The third plot shows mCPR (%) among married women against time in Kenya (country
 Note that in the example solution, `dat` refers to the processed data set with variables iso, year (referring to reference year), and cp (contraceptive_use_modern * 100). 
 
 ```{r}
+#resources: (ChatGPT)
 dat <- read.csv("contraceptive_use.csv")
 est <- read_csv("est.csv") 
 
@@ -153,3 +154,4 @@ plot_cp(dat, est, iso_code = 404, CI = 80)
 Create a repo on your GitHub. Commit and push your Rmd and knitted html to your repo. Paste the link to your GitHub repo below.
 
 
+https://github.com/wmokumass/repo
